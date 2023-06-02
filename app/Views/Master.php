@@ -78,7 +78,7 @@
     <script src="<?= base_url(); ?>/assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
     <script src="<?= base_url(); ?>/assets/plugins/jszip/jszip.min.js"></script>
     <script src="<?= base_url(); ?>/assets/plugins/pdfmake/pdfmake.min.js"></script>
-    <script src="<?= base_url(); ?>/assets/plugins/pdfmake/vfs_fonts.js"></script>
+    <!-- <script src="<?= base_url(); ?>/assets/plugins/pdfmake/vfs_fonts.js"></script> -->
     <script src="<?= base_url(); ?>/assets/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
     <script src="<?= base_url(); ?>/assets/plugins/datatables-buttons/js/buttons.print.min.js"></script>
     <script src="<?= base_url(); ?>/assets/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
@@ -121,7 +121,7 @@
                 <!-- Default box -->
                 <div class="">
                     <div class="">
-                        <h1 class="Welcon color-text-blue text-center" style="font-family: VAG Rounded Std Thin, Leelawadee;">¡Bienvenido!</h1>
+                        <h1 class="Welcon color-text-blue text-center">¡Bienvenido!</h1>
                         
                         <h3 class="text-center color-text-blue "><?= $_SESSION['Nombres'] ?> </h3>
                     </div>
@@ -137,7 +137,7 @@
                     <div class="card ">
                         <div class="conte-card">
                             <div class="row mt-3">
-                            <div class="col-lg-11 ">
+                            <div class="col-lg-12 ">
                                 <h4 id="nro_obligaciones" name="nro_obligaciones" class="text-center Welcon color-text-blue "></h4>                
                                 
                                 </div>
